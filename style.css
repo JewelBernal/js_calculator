@@ -123,3 +123,19 @@ form input.operator2:hover {
   font-weight: 600;
   letter-spacing: 2px;
 }
+
+.head {
+  width: 1870px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgba(49, 48, 37, 0.308); */
+}
+
+.headText {
+  color: rgba(228, 209, 145, 0.404);
+  font-size: 46px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
