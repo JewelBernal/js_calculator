@@ -33,7 +33,7 @@
   width: 60px;
   height: 60px;
   border-radius: 15px;
-  box-shadow: -8px -8px 15px rgba(168, 160, 87, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: -5px 4px 0px rgba(168, 160, 87, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
   background-color: rgba(20, 19, 9, 0.377);
   font-size: 20px;
   color: rgba(228, 208, 145, 0.192);
@@ -56,4 +56,11 @@ form .display input {
 
 form input.equal {
   width: 145px;
+}
+
+.calculator form input:hover {
+  color: rgba(228, 209, 145, 0.945);
+  background-color: rgba(102, 99, 65, 0.26);
+  transition: ease-in-out 0.1s;
+  box-shadow: -5px 4px 0px rgba(168, 160, 87, 0.1), 0px 5px 15px rgba(0, 0, 0, 0.2);
 }
