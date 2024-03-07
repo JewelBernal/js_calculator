@@ -62,11 +62,19 @@ form input.equal {
   box-shadow: -5px 4px 0px rgba(39, 207, 24, 0.151), 0px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+
 .calculator form input:hover {
   color: rgba(228, 209, 145, 0.945);
   background-color: rgba(102, 99, 65, 0.26);
   transition: ease-in-out 0.1s;
   box-shadow: -5px 4px 0px rgba(168, 160, 87, 0.1), 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+form input.equal:hover {
+  width: 145px;
+  background-color: rgba(31, 156, 14, 0.493);
+  color: rgba(119, 190, 5, 0.795);
+  box-shadow: -5px 4px 0px rgba(39, 207, 24, 0.322), 0px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 form input.operator {
@@ -75,8 +83,20 @@ form input.operator {
   box-shadow: -5px 4px 0px rgba(155, 140, 8, 0.151), 0px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+form input.operator:hover {
+  background-color: rgba(156, 142, 14, 0.5);
+  color: rgba(190, 178, 5, 0.829);
+  box-shadow: -5px 4px 0px rgba(155, 140, 8, 0.329), 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
 form input.operator2 {
   background-color: rgba(156, 14, 14, 0.26);
   color: rgba(190, 5, 5, 0.651);
   box-shadow: -5px 4px 0px rgba(138, 12, 12, 0.233), 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+form input.operator2:hover {
+  background-color: rgba(253, 0, 0, 0.26);
+  color: rgba(255, 91, 91, 0.685);
+  box-shadow: -5px 4px 0px rgba(138, 12, 12, 0.39), 0px 5px 15px rgba(0, 0, 0, 0.2);
 }
